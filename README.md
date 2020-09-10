@@ -1,4 +1,4 @@
-# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/laugh.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Jokes
+# <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/lightbulb.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> LightsOn|Off
  Let Mycroft brighten your day by turning the lights on (or off)
 
 ## About 
