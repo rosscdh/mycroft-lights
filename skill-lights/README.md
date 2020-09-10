@@ -1,30 +1,30 @@
 # <img src='https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/laugh.svg' card_color='#22a7f0' width='50' height='50' style='vertical-align:bottom'/> Jokes
- Let Mycroft brighten your day with a little humor
+ Let Mycroft brighten your day by turning the lights on (or off)
 
 ## About 
-Brighten your day with a little humor.  This draws on the jokes collected by the [PyJokes project](https://github.com/pyjokes/pyjokes) to give you a chuckle.
- 
- The joke categories are:
- * Neutral -- jokes that are safe for work, kids or your grandmother
- * Chuck Norris -- jokes only a geek can love
- 
- _WARNING:  Laughter is not guaranteed, but eye rolls are likely._
+A simple skill to turn lights on or off.
 
-## Examples 
-* "Make me laugh"
-* "Tell me a joke"
-* "Tell me a Chuck Norris joke"
-* "How about a neutral joke"
+Pages a go server that interacts with GPIO on your behalf (yes, i know you can do it in py but go is cool and can run on other raspberries)
+ 
+ You can:
+ * turn lights on
+ * turn lights off
+ 
+ ## Examples 
+* "lights on"
+* "lights off"
+* "brighten"
+* "darken"
 
 ## Credits 
 Mycroft AI (@MycroftAI)
 
 ## Category
-**Entertainment**
+**Home Automation**
 
 ## Tags
-#joke
-#jokes
-#humor
-#humour
-#funny
+#iot
+#homeautomation
+#skill
+#mycroft
+
