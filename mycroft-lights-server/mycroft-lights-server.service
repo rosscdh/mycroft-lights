@@ -1,0 +1,14 @@
+[Unit]
+Description=The mycroft-lights-server service 0.0.0.0:3000
+After=syslog.target network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+ExecStart=/usr/local/bin/mycroft-lights-server
+ExecStop=ps aux | grep mycroft-lights-server | grep -v grep | awk '{print $2}' | xargs kill -9
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,16 @@
+[Unit]
+Description=Run the mycroft server properly
+After=syslog.target network.target remote-fs.target nss-lookup.target systemd-user-sessions.service
+
+[Service]
+Type=forking
+RemainAfterExit=no
+User=pi
+Group=pi
+ExecStart=/home/pi/mycroft-core/start-mycroft.sh all
+ExecReload=/home/pi/mycroft-core/start-mycroft.sh all restart
+ExecStop=/home/pi/mycroft-core/stop-mycroft.sh all
+
+
+[Install]
+WantedBy=multi-user.target
