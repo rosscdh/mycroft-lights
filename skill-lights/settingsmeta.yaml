@@ -1,0 +1,12 @@
+skillMetadata:
+   sections:
+      - name: Display
+        fields:
+          - name: gpio
+            type: number
+            label: Which GPIO field to use
+            value: 25
+          - name: server
+            type: text
+            label: scheme://host:port of your gpio server
+            value: http://localhost:3000
